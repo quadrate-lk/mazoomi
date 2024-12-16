@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@media print {
+  html, body {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: white;
+  }
+
+  .print-content {
+    background-color: white;
+  }
+
+  .print-hidden,
+  .print\:hidden {
+    display: none !important;
+  }
+
+  section {
+    break-inside: avoid;
+    background-color: white !important;
+    box-shadow: none !important;
+  }
+
+  img {
+    display: block;
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  .container {
+    max-width: none;
+    padding: 0;
+  }
+}
+
+/* Print preview styles */
+body.printing {
+  background-color: white;
+}
