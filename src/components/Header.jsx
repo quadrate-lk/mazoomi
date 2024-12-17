@@ -3,7 +3,7 @@ import { ArrowDownTrayIcon } from '@heroicons/react/24/outline';
 import { usePrintContext } from './print/PrintProvider';
 
 const Header = () => {
-  const { handlePrint } = usePrintContext();
+  const { handlePdfGeneration } = usePrintContext();
 
   return (
     <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-8 print:bg-white print:text-black">
@@ -15,12 +15,12 @@ const Header = () => {
             className="w-24 h-24 rounded-full border-4 border-white shadow-lg mb-4 md:mb-0"
           />
           <div className="md:ml-4 text-center md:text-left">
-            <h1 className="text-xl md:text-3xl font-bold">MOHAMED BASEER MOHAMED MAZOOMY</h1>
+            <h1 className="text-xl md:text-3xl font-bold">MOHAMED MAZOOMY M BASEER</h1>
             <p className="text-blue-200 print:text-blue-600">Office Assistant & Administrative Support</p>
           </div>
         </div>
         <button
-          onClick={handlePrint}
+          onClick={handlePdfGeneration}
           className="bg-white text-blue-600 px-6 py-2 rounded-full flex items-center hover:bg-blue-50 transition-colors print:hidden"
           aria-label="Download Resume"
         >
