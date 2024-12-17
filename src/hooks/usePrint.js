@@ -32,7 +32,8 @@ export const usePrint = (documentTitle) => {
   });
 
   const handlePdfDownload = () => {
-    const pdfPath = '/src/data/resume.pdf';
+    // Use the public path which will be accessible after deployment
+    const pdfPath = '/mazoomi_resume.pdf';
     const link = document.createElement('a');
     link.href = pdfPath;
     link.download = 'MOHAMED_MAZOOMY_Resume.pdf';
