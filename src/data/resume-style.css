@@ -1,0 +1,92 @@
+@page {
+    size: A4;
+    margin: 1.2cm;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.3;
+    color: #333;
+    max-width: 21cm;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 10pt;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0.5em auto;
+    border: 3px solid #3498db;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 18pt;
+    margin: 0.3em 0 0.1em;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.1em;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 12pt;
+    margin: 0.6em 0 0.3em;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 0.1em;
+}
+
+h3 {
+    color: #7f8c8d;
+    font-size: 11pt;
+    margin: 0.4em 0 0.2em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0.3em 0;
+}
+
+li {
+    margin: 0.2em 0;
+    position: relative;
+    padding-left: 1em;
+}
+
+li:before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+}
+
+p {
+    margin: 0.3em 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+em {
+    color: #7f8c8d;
+    font-style: normal;
+}
+
+@media print {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #2c3e50;
+    }
+}
