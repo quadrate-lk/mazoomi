@@ -1,6 +1,6 @@
 @page {
     size: A4;
-    margin: 1.2cm;
+    margin: 20mm;
 }
 
 body {
@@ -18,38 +18,32 @@ img {
     height: 100px;
     border-radius: 50%;
     display: block;
-    margin: 0.5em auto;
+    margin: 0.3em auto;
     border: 3px solid #3498db;
 }
 
-h1 {
-    color: #2c3e50;
-    font-size: 18pt;
-    margin: 0.3em 0 0.1em;
-    text-align: center;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 0.1em;
-}
-
-h2 {
-    color: #34495e;
-    font-size: 12pt;
-    margin: 0.6em 0 0.3em;
+h1, h2 {
+    color: #000;
+    font-size: 14pt;
+    margin: 0.4em 0 0.2em;
+    text-align: left;
     border-bottom: 1px solid #bdc3c7;
     padding-bottom: 0.1em;
+    font-weight: bold;
 }
 
 h3 {
-    color: #7f8c8d;
-    font-size: 11pt;
-    margin: 0.4em 0 0.2em;
-    text-align: center;
+    color: #000;
+    font-size: 12pt;
+    margin: 0.3em 0 0.2em;
+    text-align: left;
+    font-weight: bold;
 }
 
 ul {
     list-style-type: none;
     padding-left: 0;
-    margin: 0.3em 0;
+    margin: 0.2em 0;
 }
 
 li {
@@ -66,7 +60,7 @@ li:before {
 }
 
 p {
-    margin: 0.3em 0;
+    margin: 0.5em 0;
 }
 
 a {

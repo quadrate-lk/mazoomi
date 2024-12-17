@@ -1,4 +1,4 @@
-# MOHAMED BASEER MOHAMED MAZOOMY
+# MOHAMED MAZOOMY M BASEER 
 ### Office Assistant & Administrative Support
 ![Profile Photo](https://ik.imagekit.io/mhvgbp9xk/screenshots/mazoomi%20photo.png?updatedAt=1734350105154)
 
@@ -12,13 +12,7 @@ A dedicated professional with 10 years of experience in office assistance and ad
 
 ## Skills
 ### Languages
-- Arabic
-- English
-- Hindi
-- Malayalam
-- Tamil
-- Sinhala
-- Japanese
+- Arabic, Hindi, English, Malayalam, Sinhala, Tamil(Native)
 
 ### Professional Skills
 - Administrative Support
@@ -32,7 +26,8 @@ A dedicated professional with 10 years of experience in office assistance and ad
 - Document & Data Analysis
 
 ## Work Experience
-### Office Assistant & Administrative Support | ABDULLAH BIN KHALIFA AL THANI, Qatar
+### Office Assistant & Administrative Support  
+### @ ABDULLAH BIN KHALIFA AL THANI, Qatar
 *January 2020 - Present*
 - Managed banking operations, including cheque deposits, withdrawals, and various financial transactions
 - Coordinated secure delivery of documents between business partners and clients (B2B and B2C)
@@ -43,15 +38,4 @@ A dedicated professional with 10 years of experience in office assistance and ad
 - Ensured smooth office operations
 
 ## Education
-### G.C.E. Ordinary Level
-*KASAWATTA MUSLIM VIDYALAYA*
-- GPA: 
-- Relevant Coursework: 
-- Senior Project: 
-
-## Languages
-- Arabic (Native)
-- English (Professional)
-- Hindi (Basic)
-- Malayalam (Basic)
-- Tamil (Basic)
+### G.C.E. Ordinary Level @ KASAWATTA MUSLIM VIDYALAYA
