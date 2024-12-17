@@ -1,7 +1,7 @@
 export const skillsList = [
   {
     category: "Languages",
-    skills: ["Arabic", "English", "Hindi", "Malayalam", "Tamil"]
+    skills: ["Arabic", "English", "Hindi", "Malayalam", "Tamil","Sinhala","Japanese"]
   },
   {
     category: "Professional",
